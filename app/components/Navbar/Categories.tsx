@@ -30,7 +30,7 @@ export const categories = [
     description: 'This property is close to the beach'
   },
   {
-    label: 'Windnills',
+    label: 'Windmills',
     icon: GiWindmill,
     description: 'This property has windmills'
   },
