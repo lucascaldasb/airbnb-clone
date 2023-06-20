@@ -11,7 +11,8 @@ export const Logo: React.FC<LogoProps> = () => {
   const router = useRouter()
 
   return(
-      <Image 
+      <Image
+        onClick={() => router.push('/')}
         alt='Logo'
         className='hidden md:block cursor-pointer'
         height={100}
